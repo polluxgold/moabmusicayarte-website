@@ -89,6 +89,10 @@ nav a.active{color:var(--gold-light); font-weight:700;}
   border-radius:50%; background:radial-gradient(circle, rgba(127,171,245,0.30), transparent 70%);
 }
 .hero-inner{position:relative; z-index:1; max-width:720px;}
+.hero-logo{
+  width:84px; height:84px; border-radius:50%; border:3px solid var(--gold);
+  background:#fff; box-shadow:0 10px 26px rgba(6,14,32,0.35); margin-bottom:20px;
+}
 .eyebrow{
   color:var(--gold-light); text-transform:uppercase; letter-spacing:2px; font-size:0.78rem; font-weight:600;
 }
